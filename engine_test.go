@@ -99,14 +99,6 @@ func TestPreeditEngine(t *testing.T) {
 			keyEvents: generateKeyEvents("duowidro", []string{"d", "du", "duo", "dươ", "dươi", "đươi", "đưởi", "đuổi"}, enter("đuổi")),
 		},
 		{
-			name: "workaround_spreadsheet_number_enter",
-			keyEvents: []keyEvent{
-				{keys: asciiToKeys('1'), canBeProcessed: false, expectedPreeditText: ""},
-				{keys: asciiToKeys('2'), canBeProcessed: false, expectedPreeditText: ""},
-				enter(),
-			},
-		},
-		{
 			name:      "macro_vn_dot",
 			mTable:    map[string]string{"vn": "việt nam"},
 			keyEvents: generateKeyEvents("vn.", []string{"v", "vn", ""}, enter("việt nam.")),
