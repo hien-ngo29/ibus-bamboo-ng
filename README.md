@@ -1,3 +1,5 @@
+<sub>[English README here](https://github.com/hien-ngo29/ibus-bamboo-ng/blob/master/README_EN.md)</sub>
+
 IBus Bamboo NG - Bộ gõ tiếng Việt cho Linux/BSD
 ===================================
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
